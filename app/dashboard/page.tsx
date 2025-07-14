@@ -1,7 +1,11 @@
 import { Card } from "@/app/ui/dashboard/cards";
 import RevenueChart from "@/app/ui/dashboard/revenue-chart";
 import LatestInvoices from "@/app/ui/dashboard/latest-invoices";
-import { fetchCardData, fetchLatestInvoices, fetchRevenue } from "../lib/data";
+import {
+  fetchCardData,
+  fetchLatestInvoices,
+  fetchRevenue,
+} from "@/app/lib/data";
 import { lusitana } from "@/app/ui/fonts";
 
 export default async function Page() {
